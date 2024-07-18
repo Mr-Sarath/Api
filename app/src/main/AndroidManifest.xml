@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".app.MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,8 +15,12 @@
         android:theme="@style/Theme.Api"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activity.LoginActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
             android:name=".ui.activity.SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +29,7 @@
         </activity>
         <activity
             android:name=".ui.activity.MainActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
     </application>
 
 </manifest>

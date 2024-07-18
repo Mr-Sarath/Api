@@ -1,4 +1,4 @@
-package com.example.api.ui.utils
+package com.example.api.utils
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.kapt)
+    id("com.google.dagger.hilt.android")
+
 }
 
 android {
@@ -48,6 +51,34 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     //LOTTIE
     implementation(libs.lottie)
+    //SIZE LIBRARY
+    implementation(libs.sdp)
+    implementation(libs.ssp)
+    //JSON
+    implementation(libs.gson)
+    //COIL
+    implementation(libs.coil)
+    //RETROFIT
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson)
+    implementation(libs.retrofit.scalars)
+    implementation(libs.okhttp.logging.interceptor)
+    //HILT
+    implementation (libs.hilt.android)
+    kapt (libs.hilt.compiler)
+    //COROUTINES
+    implementation(libs.couroutines.core)
+    implementation(libs.couroutines.android)
+    implementation(libs.lifecycle.viewmodel.ktx)
+    //ARCHITECTURE COMPONENTS
+    implementation (libs.androidx.lifecycle.viewmodel.ktx)
+   implementation (libs.androidx.lifecycle.livedata.ktx)
+   implementation (libs.androidx.lifecycle.runtime.ktx)
+   implementation (libs.androidx.fragment.ktx)
+   implementation (libs.androidx.activity.ktx)
+
+
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

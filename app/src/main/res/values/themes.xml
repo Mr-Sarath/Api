@@ -6,4 +6,171 @@
     </style>
 
     <style name="Theme.Api" parent="Base.Theme.Api" />
+
+    <!--FONTS-->
+    <style name="doubleExtraLargeTextMedium">
+        <item name="android:textSize">@dimen/_75ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="mediumExtraLargeTextRegular">
+        <item name="android:textSize">@dimen/_33ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="mediumExtraLargeTextMedium">
+        <item name="android:textSize">@dimen/_33ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="extraLargeTextBold">
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="extraLargeTextMedium">
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="extraLargeTextRegular">
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="extraLargeTextSemiBold">
+        <item name="android:textSize">@dimen/_22ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="largeTextBold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="largeTextMedium">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="largeTextRegular">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="largeTextSemiBold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+    <style name="mediumTextBold">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="mediumTextMedium">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="mediumTextRegular">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="mediumTextSemiBold">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+    <style name="normalTextBold">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="normalTextMedium">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="normalTextRegular">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="normalTextSemiBold">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="smallTextBold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="smallTextMedium">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="smallTextRegular">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="smallTextSemiBold">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+    <style name="verySmallTextBold">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="verySmallTextMedium">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="verySmallTextRegular">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="verySmallTextSemiBold">
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
 </resources>

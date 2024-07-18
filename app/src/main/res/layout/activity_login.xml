@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.LoginActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        style="@style/largeTextSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="Welcome"
+        android:textColor="#80000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSign"
+        style="@style/extraLargeTextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="Sign in for the \n Best Experience"
+        app:layout_constraintEnd_toEndOf="@+id/tvWelcome"
+        app:layout_constraintStart_toStartOf="@+id/tvWelcome"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvEmail"
+        style="@style/normalTextMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:hint="email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSign">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvPassword"
+        style="@style/normalTextMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:hint="Password"
+        app:endIconMode="password_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        style="@style/normalTextMedium"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Login"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/tvPassword"
+        app:layout_constraintStart_toStartOf="@+id/tvPassword"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

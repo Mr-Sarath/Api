@@ -7,13 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".ui.activity.MainActivity">
 
+    <ImageView
+        android:id="@+id/ivMenu"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tvEmail"
+        style="@style/normalTextRegular"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello Sarath k "
+        android:paddingStart="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMenu"
+        app:layout_constraintEnd_toStartOf="@+id/ivLogout"
+        app:layout_constraintStart_toEndOf="@+id/ivMenu"
+        app:layout_constraintTop_toTopOf="@+id/ivMenu" />
+
+    <ImageView
+        android:id="@+id/ivLogout"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:padding="@dimen/_6sdp"
+        android:src="@drawable/logour"
+        app:layout_constraintBottom_toBottomOf="@+id/ivMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivMenu" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMovie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_15sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
